@@ -149,7 +149,15 @@ export default function Home() {
               <span className="font-label-code text-primary">@hstrelowdev</span>). Titulado de Analista
               Programador Computacional de Duoc UC | Desarrollador Full Stack con foco en Web, Mobile &amp;
               Cloud. Enfocado en crear herramientas ágiles, arquitecturas web escalables y soluciones digitales
-              robustas.
+              robustas.{" "}
+              <span className="inline-block ml-2 align-middle rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300">
+                <img
+                  src="/gif/tmnt-working.gif"
+                  alt="Tortugas ninja trabajando en equipo"
+                  className="h-16 md:h-24 w-auto rounded-xl border-2 border-primary/50 shadow-[0_0_24px_rgba(160,120,255,0.45)] bg-surface-container-low p-0.5"
+                  loading="lazy"
+                />
+              </span>
             </p>
           </div>
 
@@ -257,9 +265,26 @@ export default function Home() {
             <h2 className="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface font-extrabold max-w-2xl tracking-tight leading-tight relative z-10 mb-space-sm">
               ¿Tienes un proyecto en mente?
             </h2>
-            <p className="font-body-lg text-body-md md:text-body-lg text-on-surface-variant max-w-xl relative z-10 mb-space-xl">
-              Transformemos tus ideas en una realidad visual impresionante y técnicamente impecable.
+            <p className="font-body-lg text-body-md md:text-body-lg text-on-surface-variant max-w-2xl relative z-10 mb-space-xl">
+              De esta forma nos encontraremos en resolver tus proyectos entre mis gatos, agentes, AI y mis neuronas jaja.
             </p>
+            <div className="flex flex-wrap items-center justify-center gap-space-md relative z-10 mb-space-xl">
+              {[0, 1, 2].map((i) => (
+                <span
+                  key={i}
+                  className={`inline-block transition-all duration-300 hover:rotate-0 hover:scale-110 ${
+                    i % 2 === 0 ? "-rotate-2" : "rotate-2"
+                  }`}
+                >
+                  <img
+                    src="/gif/hacker-man.gif"
+                    alt="Hacker man"
+                    className="h-20 md:h-32 w-auto rounded-xl border-2 border-tertiary/50 shadow-[0_0_24px_rgba(244,114,182,0.35)] bg-surface-container-low p-0.5"
+                    loading="lazy"
+                  />
+                </span>
+              ))}
+            </div>
             <div className="flex flex-wrap items-center justify-center gap-space-md relative z-10">
               <Link
                 className="inline-flex items-center justify-center gap-2 px-space-xl py-3 rounded-full bg-primary-container text-on-primary font-headline-sm text-body-md transition-all duration-300 shadow-[0_0_24px_rgba(160,120,255,0.45)] hover:shadow-[0_0_36px_rgba(160,120,255,0.65)] hover:bg-primary hover:text-on-primary group"
