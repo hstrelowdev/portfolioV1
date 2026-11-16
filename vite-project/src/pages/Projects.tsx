@@ -2,8 +2,7 @@ import { ProjectCard } from "../components/ProjectCard";
 
 const projects = [
   {
-    image:
-      "https://lh3.googleusercontent.com/aida/ALJJyrChfLOfEDORo9xey0TjR0bWyWYHiQNLyJ2ykWXaCW-Ifwm0qhUsOQWKB9nmgu1tApuw-1EF2HrEWT2iLqbB_ep6J5PXqGPi_VzwomwMn1XuE4y8OEtrT2d-rmF3aOzOSrXTWabMQbgxHI6DLFe6W5sEIs1IDILfGYHaButXlhW52Rd06zvrdRIHTKi4k92d56lyA6faRAMvFcxD40G7Q-7_Y4Hr785X6us_-31bnw3IIQ",
+    image: "/img/devteca.png",
     imageAlt: "Devteca Developer Resource Library interface preview",
     badge: "TypeScript / Next.js",
     repo: "hstrelowdev/Devteca",
@@ -14,8 +13,7 @@ const projects = [
     href: "https://github.com/hstrelowdev/Devteca",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/aida/ALJJyrA7FpRSseqRXC33BSbDbp8GpC1NieQcJ7ZbgIk-FLmV-eTp_TVLlqBGH1wyZWcqikykjM5CYsgiWgqD8x7zT55IQ29Yob_QfR6dt1D00pb1k4yKmwvk57bNAAnBMk_PXqL595aLJ-gpv3LUsBJjxK1uMbysuMSb4nu_PADbD4NJI7WhKqf-7zW84LbMrlnZB5zmuTrzLZ7iedqvJKotLtJRd4CeSoNEox5P5j2AYk1r9g",
+    image: "/img/bitacora.png",
     imageAlt: "Bitácora Internal Workflow Management interface preview",
     badge: "PHP / Laravel",
     repo: "hstrelowdev/bitacora",
@@ -26,8 +24,7 @@ const projects = [
     href: "https://github.com/hstrelowdev/bitacora",
   },
   {
-    image:
-      "https://lh3.googleusercontent.com/aida/ALJJyrAsH3rzNsUqZlGQYtcIwEJlQc4-khrzZ_hE0bnBdrfo-5X_xjzCdo9a8SvoCRpnJ4quS2WBW459DaFMP8lxinHiD3FL3s5CDqfZ10abiW6o3O1EbIBTiMwqThGIzyCTIJAClzDnDCPGgxfZYAtV_8h0LRumI-O-znGgsWhdqNcj9YgonVh9GZFtzZh6-CN6EJqhx6RRqrbbisC45wF5P2wJfekefZUM07tNhXDA2uKNTw",
+    image: "/img/valhein.jpg",
     imageAlt: "deathTauntVH Valheim mod HUD banner taunt interface preview",
     badge: "C# / Game Modding",
     repo: "hstrelowdev/deathTauntVH",
