@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Footer() {
   return (
     <footer className="w-full bg-surface-container-lowest pt-space-2xl pb-space-xl shadow-[0_-1px_16px_rgba(0,0,0,0.4)]">
@@ -12,24 +14,24 @@ export function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-space-md">
-            <a
+            <Link
               className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-sm py-1 rounded transition-colors"
-              href="index.html"
+              to="/"
             >
               Inicio
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-sm py-1 rounded transition-colors"
-              href="views/proyects.html"
+              to="/proyectos"
             >
               Proyectos
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container px-space-sm py-1 rounded transition-colors"
-              href="views/abourt.html"
+              to="/sobre-mi"
             >
               Sobre Mí
-            </a>
+            </Link>
             <a
               className="font-body-sm text-body-sm text-on-surface-variant hover:text-primary hover:bg-surface-container px-space-sm py-1 rounded transition-colors"
               href="https://github.com/hstrelowdev"
