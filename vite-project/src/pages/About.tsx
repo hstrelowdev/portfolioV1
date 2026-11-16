@@ -87,18 +87,49 @@ export default function About() {
             </div>
 
             <div className="flex flex-col gap-space-md font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              <p>Titulado de Analista Programador Computacional en Duoc UC, desde Chile 🇨🇱.</p>
               <p>
-                Titulado de Analista Programador Computacional en Duoc UC. Desarrollador Full Stack con amplia
-                experiencia construyendo y manteniendo aplicaciones web y mobile en producción (Chile 🇨🇱 / Remoto), con
-                foco en resolver problemas complejos de frontend, backend, bases de datos e infraestructura cloud.
+                Desarrollador Full Stack con amplia experiencia construyendo y manteniendo aplicaciones web y mobile en
+                producción, con foco en resolver problemas complejos de frontend, backend, bases de datos e
+                infraestructura cloud.
               </p>
               <p>
-                Mi trayectoria incluye experiencia en iBoxStudio liderando funcionalidades web y mobile (React / React
-                Native), automatizaciones en Python (soft-delete de +5.000 registros sin downtime), despliegues e
-                infraestructura AWS (Cognito, Elastic Beanstalk, Docker), y en COSOF desarrollando plataformas para el
-                rubro salud (ERP logístico, agendamiento médico y facturación en PHP/JS). Especialista en investigar
-                bugs críticos que cruzan frontend, backend y datos.
+                Mi última trayectoria incluye experiencia liderando funcionalidades web y mobile (React / React Native),
+                desarrollando automatizaciones en Python (como un soft-delete de más de 5.000 registros sin downtime) y
+                trabajando con despliegues e infraestructura AWS (Cognito, Elastic Beanstalk y Docker).
               </p>
+              <p>
+                También he trabajado resolviendo problemas de autenticación y revisando flujos de integración con SAP,
+                donde se realizaba la carga de archivos a un bucket de S3, la ejecución de funciones Lambda y otros
+                procedimientos. En estos casos, era necesario analizar logs para identificar errores y encontrar
+                soluciones.
+              </p>
+              <p>
+                Además, tengo experiencia realizando soporte a través de plataformas de Help Desk y Jira, atendiendo a
+                distintos usuarios y orientándolos sobre cómo utilizar las herramientas o resolver determinados
+                problemas. Todo esto enfocado principalmente en el área de minería y equipos pesados.
+              </p>
+              <p>
+                Por otra parte, también he trabajado desarrollando sistemas ERP para el área de salud, utilizando PHP y
+                JavaScript como stack principal.
+              </p>
+              <p>
+                He visto de todo: errores, estructuras de código mal organizadas, falta de documentación y bugs tan
+                extraños como el clima actualmente. Después de todas estas experiencias, siento que he desarrollado una
+                capacidad de resolución de problemas que me permite enfrentar prácticamente cualquier desafío que se
+                presente.
+              </p>
+              <p>Les dejo el link que representa todas estas experiencias vividas. Jajaja.</p>
+              <div className="flex justify-center mt-space-md">
+                <span className="inline-block -rotate-2 hover:rotate-0 hover:scale-110 transition-all duration-300">
+                  <img
+                    src="/gif/zelda-link.gif"
+                    alt="Link de Zelda representando las aventuras vividas"
+                    className="h-[7rem] md:h-[11rem] w-auto rounded-xl border-2 border-secondary/50 shadow-[0_0_24px_rgba(56,189,248,0.35)] bg-surface-container-low p-0.5"
+                    loading="lazy"
+                  />
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
